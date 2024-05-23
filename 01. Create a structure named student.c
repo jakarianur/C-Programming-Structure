@@ -1,3 +1,7 @@
+/*
+    Create a structure named student. Store information for a students about the student's name, id, marks in physics, marks in math, marks in chemistry.
+    Add all those 3 courses marks. Print the student's name, id and total marks in the output.c
+*/
 #include <stdio.h>
 struct student
 {
