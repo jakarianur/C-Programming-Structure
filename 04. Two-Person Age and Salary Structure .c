@@ -1,8 +1,11 @@
 #include <stdio.h> 
-   struct person { 
+struct person
+{ 
    int age; 
-   float salary;  }; 
-   int main() { 
+   float salary;
+}; 
+   int main()
+{ 
    struct person jakaria, jubayer; 
    jakaria.age = 22; 
    jakaria.salary = 3200.60; 
@@ -14,4 +17,5 @@
    printf("\nMd Jubayer Nur\n"); 
    printf("Age = %d Years\n", jubayer.age); 
    printf("Salary = %.2f USD\n", jubayer.salary); 
-    return 0 ; }
+    return 0 ;
+}
