@@ -1,12 +1,14 @@
 #include
-struct person {
+struct person
+{
 char name [100];
 int id;
 float mat;
 float phy;
 float che;
 };
-int main() {
+int main()
+{
 struct person stu1, stu2;
 printf(“Enter First Student Name: “);
 scanf(“%s”, &stu1.name);
@@ -36,4 +38,5 @@ printf(“\nSecond Student\n”);
 printf(“\nName = %s \n”, stu2.name);
 printf(“Id = %.2d \n”, stu2.id);
 printf(“Sum = %.2f \n”, stu2.mat + stu2.phy + stu2.che);
-return 0 ; }
+return 0 ;
+}
